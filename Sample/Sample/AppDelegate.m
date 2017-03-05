@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
-
+#import "MyOrder.h"
 @interface AppDelegate ()
 
 @end
@@ -23,8 +23,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Override point for customization after application launch.
-    viewcotroller = [[ViewController alloc]
-                           initWithNibName:@"ViewController" bundle:nil];
+    viewcotroller = [[MyOrder alloc]
+                           initWithNibName:@"MyOrder" bundle:nil];
     navigationcotroller = [[UINavigationController alloc]initWithRootViewController:viewcotroller];
     self.window.rootViewController = navigationcotroller;
     [self.window makeKeyAndVisible];

@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		853550721E6BEBCF00D17A23 /* PatientProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 853550711E6BEBCF00D17A23 /* PatientProfile.m */; };
+		853550741E6BEBE400D17A23 /* PatientProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853550731E6BEBE400D17A23 /* PatientProfile.xib */; };
+		853550791E6BEFEE00D17A23 /* Birthday Cake-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 853550751E6BEFEE00D17A23 /* Birthday Cake-50 (1).png */; };
+		8535507A1E6BEFEE00D17A23 /* Marker-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 853550761E6BEFEE00D17A23 /* Marker-26.png */; };
+		8535507B1E6BEFEE00D17A23 /* Message-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 853550771E6BEFEE00D17A23 /* Message-26.png */; };
+		8535507C1E6BEFEE00D17A23 /* Phone-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 853550781E6BEFEE00D17A23 /* Phone-64.png */; };
+		853550811E6BF12D00D17A23 /* Birthday Cake-50 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 8535507D1E6BF12D00D17A23 /* Birthday Cake-50 (2).png */; };
+		853550821E6BF12D00D17A23 /* Marker-26 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 8535507E1E6BF12D00D17A23 /* Marker-26 (1).png */; };
+		853550831E6BF12D00D17A23 /* Message-26 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 8535507F1E6BF12D00D17A23 /* Message-26 (1).png */; };
+		853550841E6BF12D00D17A23 /* Phone-64 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 853550801E6BF12D00D17A23 /* Phone-64 (1).png */; };
+		853550861E6BF56C00D17A23 /* Gender-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 853550851E6BF56C00D17A23 /* Gender-26.png */; };
+		853550881E6BF5C900D17A23 /* Gender-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 853550871E6BF5C900D17A23 /* Gender-64.png */; };
+		8535508C1E6C0C9000D17A23 /* MyOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8535508B1E6C0C9000D17A23 /* MyOrder.m */; };
+		8535508E1E6C0CAC00D17A23 /* MyOrder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8535508D1E6C0CAC00D17A23 /* MyOrder.xib */; };
+		853550911E6C0CF600D17A23 /* MyOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853550901E6C0CF600D17A23 /* MyOrderCell.m */; };
+		853550931E6C0D0200D17A23 /* MyOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853550921E6C0D0200D17A23 /* MyOrderCell.xib */; };
+		853550951E6C1C7600D17A23 /* Forward-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 853550941E6C1C7600D17A23 /* Forward-64.png */; };
 		857C93331E1591E3003DC7EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 857C93321E1591E3003DC7EE /* main.m */; };
 		857C93361E1591E3003DC7EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 857C93351E1591E3003DC7EE /* AppDelegate.m */; };
 		857C93391E1591E3003DC7EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857C93381E1591E3003DC7EE /* ViewController.m */; };
@@ -20,6 +37,10 @@
 		85CCAD221E5F54BA002BAF09 /* Long Arrow Left-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CCAD211E5F54BA002BAF09 /* Long Arrow Left-64.png */; };
 		85CCAD241E5F5B73002BAF09 /* Lock-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CCAD231E5F5B73002BAF09 /* Lock-48.png */; };
 		85CCAD261E5F63F5002BAF09 /* close-icon-black (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 85CCAD251E5F63F5002BAF09 /* close-icon-black (1).png */; };
+		85F353D81E6C5E8600AF7D8B /* Contacts-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F353D71E6C5E8600AF7D8B /* Contacts-64.png */; };
+		85F353DB1E6C5F2900AF7D8B /* Fax-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F353D91E6C5F2900AF7D8B /* Fax-50.png */; };
+		85F353DC1E6C5F2900AF7D8B /* Fax-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F353DA1E6C5F2900AF7D8B /* Fax-64.png */; };
+		85F353DE1E6C5FB900AF7D8B /* Email-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F353DD1E6C5FB900AF7D8B /* Email-64.png */; };
 		85FFB7DE1E2292D3009BC0EA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FFB7DD1E2292D3009BC0EA /* ViewController.xib */; };
 		85FFB7E11E22ABAF009BC0EA /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FFB7E01E22ABAF009BC0EA /* ViewController1.m */; };
 		85FFB7E31E22ABD1009BC0EA /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FFB7E21E22ABD1009BC0EA /* ViewController1.xib */; };
@@ -43,6 +64,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		853550701E6BEBCF00D17A23 /* PatientProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientProfile.h; sourceTree = "<group>"; };
+		853550711E6BEBCF00D17A23 /* PatientProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientProfile.m; sourceTree = "<group>"; };
+		853550731E6BEBE400D17A23 /* PatientProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientProfile.xib; sourceTree = "<group>"; };
+		853550751E6BEFEE00D17A23 /* Birthday Cake-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Birthday Cake-50 (1).png"; sourceTree = "<group>"; };
+		853550761E6BEFEE00D17A23 /* Marker-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker-26.png"; sourceTree = "<group>"; };
+		853550771E6BEFEE00D17A23 /* Message-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Message-26.png"; sourceTree = "<group>"; };
+		853550781E6BEFEE00D17A23 /* Phone-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone-64.png"; sourceTree = "<group>"; };
+		8535507D1E6BF12D00D17A23 /* Birthday Cake-50 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Birthday Cake-50 (2).png"; sourceTree = "<group>"; };
+		8535507E1E6BF12D00D17A23 /* Marker-26 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker-26 (1).png"; sourceTree = "<group>"; };
+		8535507F1E6BF12D00D17A23 /* Message-26 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Message-26 (1).png"; sourceTree = "<group>"; };
+		853550801E6BF12D00D17A23 /* Phone-64 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone-64 (1).png"; sourceTree = "<group>"; };
+		853550851E6BF56C00D17A23 /* Gender-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gender-26.png"; sourceTree = "<group>"; };
+		853550871E6BF5C900D17A23 /* Gender-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gender-64.png"; sourceTree = "<group>"; };
+		8535508A1E6C0C9000D17A23 /* MyOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrder.h; sourceTree = "<group>"; };
+		8535508B1E6C0C9000D17A23 /* MyOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrder.m; sourceTree = "<group>"; };
+		8535508D1E6C0CAC00D17A23 /* MyOrder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrder.xib; sourceTree = "<group>"; };
+		8535508F1E6C0CF600D17A23 /* MyOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderCell.h; sourceTree = "<group>"; };
+		853550901E6C0CF600D17A23 /* MyOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderCell.m; sourceTree = "<group>"; };
+		853550921E6C0D0200D17A23 /* MyOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrderCell.xib; sourceTree = "<group>"; };
+		853550941E6C1C7600D17A23 /* Forward-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward-64.png"; sourceTree = "<group>"; };
 		857C932E1E1591E3003DC7EE /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857C93321E1591E3003DC7EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		857C93341E1591E3003DC7EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +106,10 @@
 		85CCAD211E5F54BA002BAF09 /* Long Arrow Left-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Long Arrow Left-64.png"; sourceTree = "<group>"; };
 		85CCAD231E5F5B73002BAF09 /* Lock-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lock-48.png"; sourceTree = "<group>"; };
 		85CCAD251E5F63F5002BAF09 /* close-icon-black (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-icon-black (1).png"; sourceTree = "<group>"; };
+		85F353D71E6C5E8600AF7D8B /* Contacts-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contacts-64.png"; sourceTree = "<group>"; };
+		85F353D91E6C5F2900AF7D8B /* Fax-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fax-50.png"; sourceTree = "<group>"; };
+		85F353DA1E6C5F2900AF7D8B /* Fax-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fax-64.png"; sourceTree = "<group>"; };
+		85F353DD1E6C5FB900AF7D8B /* Email-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Email-64.png"; sourceTree = "<group>"; };
 		85FFB7DD1E2292D3009BC0EA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		85FFB7DF1E22ABAF009BC0EA /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		85FFB7E01E22ABAF009BC0EA /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
@@ -96,6 +141,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8535506F1E6BEBAE00D17A23 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				85F353DD1E6C5FB900AF7D8B /* Email-64.png */,
+				85F353D91E6C5F2900AF7D8B /* Fax-50.png */,
+				85F353DA1E6C5F2900AF7D8B /* Fax-64.png */,
+				85F353D71E6C5E8600AF7D8B /* Contacts-64.png */,
+				853550871E6BF5C900D17A23 /* Gender-64.png */,
+				853550851E6BF56C00D17A23 /* Gender-26.png */,
+				8535507D1E6BF12D00D17A23 /* Birthday Cake-50 (2).png */,
+				8535507E1E6BF12D00D17A23 /* Marker-26 (1).png */,
+				8535507F1E6BF12D00D17A23 /* Message-26 (1).png */,
+				853550801E6BF12D00D17A23 /* Phone-64 (1).png */,
+				853550751E6BEFEE00D17A23 /* Birthday Cake-50 (1).png */,
+				853550761E6BEFEE00D17A23 /* Marker-26.png */,
+				853550771E6BEFEE00D17A23 /* Message-26.png */,
+				853550781E6BEFEE00D17A23 /* Phone-64.png */,
+				853550701E6BEBCF00D17A23 /* PatientProfile.h */,
+				853550711E6BEBCF00D17A23 /* PatientProfile.m */,
+				853550731E6BEBE400D17A23 /* PatientProfile.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		853550891E6C0C6900D17A23 /* My Order */ = {
+			isa = PBXGroup;
+			children = (
+				853550941E6C1C7600D17A23 /* Forward-64.png */,
+				8535508A1E6C0C9000D17A23 /* MyOrder.h */,
+				8535508B1E6C0C9000D17A23 /* MyOrder.m */,
+				8535508D1E6C0CAC00D17A23 /* MyOrder.xib */,
+				8535508F1E6C0CF600D17A23 /* MyOrderCell.h */,
+				853550901E6C0CF600D17A23 /* MyOrderCell.m */,
+				853550921E6C0D0200D17A23 /* MyOrderCell.xib */,
+			);
+			name = "My Order";
+			sourceTree = "<group>";
+		};
 		857C93251E1591E2003DC7EE = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +213,8 @@
 				85FFB7DF1E22ABAF009BC0EA /* ViewController1.h */,
 				85FFB7E01E22ABAF009BC0EA /* ViewController1.m */,
 				85FFB7E21E22ABD1009BC0EA /* ViewController1.xib */,
+				853550891E6C0C6900D17A23 /* My Order */,
+				8535506F1E6BEBAE00D17A23 /* Profile */,
 				857C933A1E1591E3003DC7EE /* Main.storyboard */,
 				85CCAD251E5F63F5002BAF09 /* close-icon-black (1).png */,
 				85CCAD231E5F5B73002BAF09 /* Lock-48.png */,
@@ -275,14 +360,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				85CCAD241E5F5B73002BAF09 /* Lock-48.png in Resources */,
+				853550861E6BF56C00D17A23 /* Gender-26.png in Resources */,
+				853550741E6BEBE400D17A23 /* PatientProfile.xib in Resources */,
 				85CCAD201E5F5193002BAF09 /* Payment_Screen.xib in Resources */,
+				853550931E6C0D0200D17A23 /* MyOrderCell.xib in Resources */,
+				853550951E6C1C7600D17A23 /* Forward-64.png in Resources */,
+				853550791E6BEFEE00D17A23 /* Birthday Cake-50 (1).png in Resources */,
+				8535507C1E6BEFEE00D17A23 /* Phone-64.png in Resources */,
+				853550811E6BF12D00D17A23 /* Birthday Cake-50 (2).png in Resources */,
+				8535508E1E6C0CAC00D17A23 /* MyOrder.xib in Resources */,
 				85CCAD261E5F63F5002BAF09 /* close-icon-black (1).png in Resources */,
+				853550881E6BF5C900D17A23 /* Gender-64.png in Resources */,
+				853550831E6BF12D00D17A23 /* Message-26 (1).png in Resources */,
+				8535507B1E6BEFEE00D17A23 /* Message-26.png in Resources */,
 				857C93411E1591E3003DC7EE /* LaunchScreen.storyboard in Resources */,
 				85CCAD221E5F54BA002BAF09 /* Long Arrow Left-64.png in Resources */,
+				85F353DE1E6C5FB900AF7D8B /* Email-64.png in Resources */,
+				85F353D81E6C5E8600AF7D8B /* Contacts-64.png in Resources */,
 				85FFB7E31E22ABD1009BC0EA /* ViewController1.xib in Resources */,
+				853550841E6BF12D00D17A23 /* Phone-64 (1).png in Resources */,
+				85F353DC1E6C5F2900AF7D8B /* Fax-64.png in Resources */,
 				857C933E1E1591E3003DC7EE /* Assets.xcassets in Resources */,
 				85FFB7DE1E2292D3009BC0EA /* ViewController.xib in Resources */,
+				85F353DB1E6C5F2900AF7D8B /* Fax-50.png in Resources */,
+				853550821E6BF12D00D17A23 /* Marker-26 (1).png in Resources */,
 				857C933C1E1591E3003DC7EE /* Main.storyboard in Resources */,
+				8535507A1E6BEFEE00D17A23 /* Marker-26.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,9 +412,12 @@
 			files = (
 				85CCAD1E1E5F5186002BAF09 /* Payment_Screen.m in Sources */,
 				85FFB7E11E22ABAF009BC0EA /* ViewController1.m in Sources */,
+				853550911E6C0CF600D17A23 /* MyOrderCell.m in Sources */,
 				857C93391E1591E3003DC7EE /* ViewController.m in Sources */,
+				853550721E6BEBCF00D17A23 /* PatientProfile.m in Sources */,
 				857C93361E1591E3003DC7EE /* AppDelegate.m in Sources */,
 				857C93331E1591E3003DC7EE /* main.m in Sources */,
+				8535508C1E6C0C9000D17A23 /* MyOrder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

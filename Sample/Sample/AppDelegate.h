@@ -10,10 +10,13 @@
 
 @class ViewController;
 
+@class MyOrder;
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property(strong,nonatomic)ViewController *viewcotroller;
+@property(strong,nonatomic)MyOrder *viewcotroller;
 @property(strong,nonatomic)UINavigationController *navigationcotroller;
 
 @property BOOL restrictRotation;
